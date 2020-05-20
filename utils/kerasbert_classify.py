@@ -7,8 +7,11 @@ from collections import defaultdict  # 用于创建一个空的字典，在后�
 import jieba
 import jieba.analyse
 import numpy as np
+import requests
+
+from app import READ_TIMEOUT, CONNECT_TIMEOUT
+from config import BERT_IP, DATA_TRANS_HOST, DATA_TRANS_PORT, DEFAULT_CLIENT_ID, DEFAULT_CLIENT_SECRET
 import yaml
-from config import BERT_IP
 from keras.backend import clear_session
 from bert_serving.client import BertClient
 from gensim import corpora, similarities, models as g_models
@@ -19,7 +22,6 @@ from keras.optimizers import Adam
 from keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
-from utils.data_trans import data_trans
 
 CHOICE_QUESTIONS = ["选择题", "单选题", "单项选择题", "多选题", "多项选择题", "听力选择题", '双选题']  # 选择题
 maxlen = 100  # 句子的最大长度，padding要用的
@@ -225,6 +227,15 @@ def get_point_list_(know_label, simi_score):
     return point_list
 
 
+def sort(point_list):
+    return_point = {}
+    for point in point_list:
+        for key, value in point.items():
+            return_point[key] = value
+    points = sorted(return_point.items(), key=lambda k: k[1], reverse=True)
+    return points
+
+
 def get_return(ques_seg, points_tfidf):
     points_str = []
     word4, word2 = [], []
@@ -334,7 +345,14 @@ def pre_test(ques_path, json_path=None, know_label=None):
     return contents, knows, know_label, one
 
 
-def question_classify(item, model=None):
+def get_tree_data(subject_id, headers):
+    url = "http://{}:{}/yangtze/recommend/tree/{}".format(DATA_TRANS_HOST, DATA_TRANS_PORT, subject_id)
+    resp = requests.get(url=url, params=None, headers=headers)
+    json_data = resp.json()
+    return json_data
+
+
+def question_classify(item, headers, model=None):
     """
     :param kwards: 包含学校和用户信息
     :param item: 一道题的所有信息
@@ -369,7 +387,7 @@ def question_classify(item, model=None):
             # wordvec = build_bert_model(X1, X2)
             # bc = BertClient(ip='118.24.146.97')
             t1 = time.time()
-            bc = BertClient(ip='10.88.190.154')  # h3class_5lou
+            bc = BertClient(ip=BERT_IP)  # h3class_5lou
             wordvec = bc.encode(content)
             wordvec = wordvec.reshape((wordvec.shape[0], 1, wordvec.shape[1]))
             t2 = time.time()
@@ -394,8 +412,10 @@ def question_classify(item, model=None):
             t6 = time.time()
             print("get knowledge similarity costs {}s".format(t6 - t5))
             point_list = get_point_list(know_label, simi_tfidf)
+            points = sorted(point_list, key=lambda k: k[1], reverse=True)[0:50]
         else:
-            json_data = data_trans.get_tree(subject_id)
+            json_data = get_tree_data(subject_id, headers)
+            json_data = json_data.get("data")
             know_label = per_knowledge_(json_data)
             simi_tfidf = []
             # 词频相似度
@@ -404,6 +424,7 @@ def question_classify(item, model=None):
                 for simi in sim:
                     simi_tfidf.append(simi)
             point_list = get_point_list_(know_label, simi_tfidf)
+            points = sort(point_list)[0:50]
         # 返回题干的分词
         ques_seg = []
         stopwords = stop_words_list
@@ -412,8 +433,6 @@ def question_classify(item, model=None):
             # if item not in stopwords and len(item) >= 2:
             if len(item) >= 2:
                 ques_seg.append(item)
-
-        points = sorted(point_list.items(), key=lambda k: k[1], reverse=True)[0:50]
         points_str = get_return(ques_seg, points)
         return points_str
 
@@ -424,7 +443,13 @@ def train_kerasbert(ques_path, subject_id):
     :param json_path: 知识点的json数据路径
     :return:
     """
-    json_data = data_trans.get_tree(subject_id)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko',
+        "Content-Type": "application/json",
+        'Connection': 'close',
+        'Authorization': 'Potent {} {}'.format(DEFAULT_CLIENT_ID, DEFAULT_CLIENT_SECRET)
+    }
+    json_data = get_tree_data(subject_id, headers)
     know_label = per_knowledge_(json_data)
     con, knows, know_label, one_dict = pre_test(ques_path, know_label=know_label)
     length, contents = get_data(one_dict)

@@ -6,6 +6,7 @@ from keras import models
 
 import config
 import tensorflow as tf
+from config import CONNECT_TIMEOUT, READ_TIMEOUT
 from api import api
 from flask import Flask
 from utils.data_trans import data_trans
@@ -20,8 +21,6 @@ global graph
 graph = tf.compat.v1.get_default_graph()
 model = models.load_model('./keras_classify_model/keras_bert_lishi_cz.h5')
 app.config.from_object(config)
-CONNECT_TIMEOUT = os.getenv("CONNECT_TIMEOUT", 3)
-READ_TIMEOUT = os.getenv("READ_TIMEOUT", 10)
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko',
     "Content-Type": "application/json",
@@ -42,7 +41,7 @@ def get_know(question_id):
     question_data = resp.json()
     question_data = question_data["data"]
     with graph.as_default():
-        point_str = question_classify(question_data, model=model)
+        point_str = question_classify(question_data, headers, model=model)
     data = {
         "data": point_str
     }
