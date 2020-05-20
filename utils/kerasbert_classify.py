@@ -8,6 +8,7 @@ import jieba
 import jieba.analyse
 import numpy as np
 import yaml
+from config import BERT_IP
 from keras.backend import clear_session
 from bert_serving.client import BertClient
 from gensim import corpora, similarities, models as g_models
@@ -432,7 +433,7 @@ def train_kerasbert(ques_path, subject_id):
     # [X1, X2] = get_encode(contents, token_dict)
     # wordvec = build_bert_model(X1, X2)
     # bc = BertClient(ip='118.24.146.97')
-    bc = BertClient(ip='10.88.190.154')  # h3class_5lou
+    bc = BertClient(ip=BERT_IP)  # h3class_5lou
     wordvec = bc.encode(contents)
     wordvec = wordvec.reshape((wordvec.shape[0], 1, wordvec.shape[1]))
 

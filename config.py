@@ -15,6 +15,8 @@ FILE_URL = os.getenv("FILE_URL", "/data/office-resource")
 DATA_TRANS_HOST = os.getenv("DATA_TRANS_HOST", "172.25.15.78")
 DATA_TRANS_PORT = os.getenv("DATA_TRANS_PORT", "8009")
 
+BERT_IP = os.getenv("BERT_IP", "10.88.190.154")
+
 # 虚拟用户
 DEFAULT_CLIENT_ID = "RRvVOGmcYldZSSDF"
 DEFAULT_CLIENT_SECRET = "RrsWRvVOXmzRmRvdZSSHGmcYlWMgbDzW"
