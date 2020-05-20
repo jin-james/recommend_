@@ -7,9 +7,7 @@ from keras import models
 import config
 import tensorflow as tf
 from config import CONNECT_TIMEOUT, READ_TIMEOUT
-from api import api
 from flask import Flask
-from utils.data_trans import data_trans
 from utils.kerasbert_classify import question_classify
 from config import DATA_TRANS_PORT, DATA_TRANS_HOST, DEFAULT_CLIENT_ID, DEFAULT_CLIENT_SECRET
 

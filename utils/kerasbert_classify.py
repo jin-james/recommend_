@@ -9,10 +9,8 @@ import jieba.analyse
 import numpy as np
 import requests
 
-from app import READ_TIMEOUT, CONNECT_TIMEOUT
-from config import BERT_IP, DATA_TRANS_HOST, DATA_TRANS_PORT, DEFAULT_CLIENT_ID, DEFAULT_CLIENT_SECRET
-import yaml
-from keras.backend import clear_session
+from config import BERT_IP, DATA_TRANS_HOST, DATA_TRANS_PORT, DEFAULT_CLIENT_ID, DEFAULT_CLIENT_SECRET,\
+    READ_TIMEOUT, CONNECT_TIMEOUT
 from bert_serving.client import BertClient
 from gensim import corpora, similarities, models as g_models
 from keras import losses, Sequential, models
@@ -347,7 +345,7 @@ def pre_test(ques_path, json_path=None, know_label=None):
 
 def get_tree_data(subject_id, headers):
     url = "http://{}:{}/yangtze/recommend/tree/{}".format(DATA_TRANS_HOST, DATA_TRANS_PORT, subject_id)
-    resp = requests.get(url=url, params=None, headers=headers)
+    resp = requests.get(url=url, params=None, headers=headers, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
     json_data = resp.json()
     return json_data
 
