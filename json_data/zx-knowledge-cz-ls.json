@@ -1,0 +1,3255 @@
+﻿[
+  {
+    "label": "认识历史",
+    "children": [
+      {
+        "label": "历史学习方法",
+        "children": []
+      },
+      {
+        "label": "历史时间计算",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "中国古代史",
+    "children": [
+      {
+        "label": "史前时期：中国境内早期人类与文明的起源",
+        "children": [
+          {
+            "label": "中国早期人类的代表——北京人",
+            "children": [
+              {
+                "label": "元谋人",
+                "children": []
+              },
+              {
+                "label": "北京人",
+                "children": []
+              },
+              {
+                "label": "山顶洞人",
+                "children": []
+              },
+              {
+                "label": "化石和人类起源的研究",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "原始农耕生活",
+            "children": [
+              {
+                "label": "原始农业的发展",
+                "children": []
+              },
+              {
+                "label": "河姆渡人的生活",
+                "children": []
+              },
+              {
+                "label": "半坡居民的生活",
+                "children": []
+              },
+              {
+                "label": "大汶口原始居民",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "远古的传说",
+            "children": [
+              {
+                "label": "炎黄联盟",
+                "children": []
+              },
+              {
+                "label": "炎帝和黄帝的发明与贡献",
+                "children": []
+              },
+              {
+                "label": "尧舜禹的贡献与禅让",
+                "children": []
+              },
+              {
+                "label": "大禹治水",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "夏商周时期：早期国家与社会变革",
+        "children": [
+          {
+            "label": "夏商周的更替",
+            "children": [
+              {
+                "label": "夏朝的兴亡与世袭制的确立",
+                "children": []
+              },
+              {
+                "label": "商朝的兴亡",
+                "children": []
+              },
+              {
+                "label": "西周的兴亡",
+                "children": []
+              },
+              {
+                "label": "西周的分封制",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "青铜时代的文明",
+            "children": [
+              {
+                "label": "青铜器和金文",
+                "children": []
+              },
+              {
+                "label": "甲骨文记事及其造字特点",
+                "children": []
+              },
+              {
+                "label": "夏商周时期的农业和畜牧业",
+                "children": []
+              },
+              {
+                "label": "夏商周时期奴隶的悲惨生活",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "动荡的春秋时期",
+            "children": [
+              {
+                "label": "铁农具和牛耕的推广",
+                "children": []
+              },
+              {
+                "label": "王室衰微和诸侯争霸",
+                "children": []
+              },
+              {
+                "label": "管仲改革",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "战国时期的社会变化",
+            "children": [
+              {
+                "label": "战国七雄",
+                "children": []
+              },
+              {
+                "label": "春秋战国时期各国的改革与变法",
+                "children": []
+              },
+              {
+                "label": "商鞅变法",
+                "children": []
+              },
+              {
+                "label": "造福千秋的都江堰",
+                "children": []
+              },
+              {
+                "label": "奴隶社会的瓦解和封建社会的形成",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "百家争鸣",
+            "children": [
+              {
+                "label": "百家争鸣的背景",
+                "children": []
+              },
+              {
+                "label": "老子及其思想",
+                "children": []
+              },
+              {
+                "label": "孔子及其思想",
+                "children": []
+              },
+              {
+                "label": "墨子及其思想",
+                "children": []
+              },
+              {
+                "label": "孟子及其思想",
+                "children": []
+              },
+              {
+                "label": "荀子及其思想",
+                "children": []
+              },
+              {
+                "label": "庄子及其思想",
+                "children": []
+              },
+              {
+                "label": "韩非子及其思想",
+                "children": []
+              },
+              {
+                "label": "孙子及其思想",
+                "children": []
+              },
+              {
+                "label": "百家争鸣的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "先秦时期的科技与文化",
+            "children": [
+              {
+                "label": "先秦时期的科学技术",
+                "children": []
+              },
+              {
+                "label": "先秦时期的文学与艺术",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "秦汉时期：统一多民族国家的建立和巩固",
+        "children": [
+          {
+            "label": "秦统一中国",
+            "children": [
+              {
+                "label": "秦的统一",
+                "children": []
+              },
+              {
+                "label": "秦中央集权制度的建立及其影响",
+                "children": []
+              },
+              {
+                "label": "秦巩固统一的措施",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "秦末农民大起义",
+            "children": [
+              {
+                "label": "秦的暴政",
+                "children": []
+              },
+              {
+                "label": "秦末农民大起义",
+                "children": []
+              },
+              {
+                "label": "秦朝灭亡及楚汉之争",
+                "children": []
+              },
+              {
+                "label": "秦始皇的功过评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "西汉建立和“文景之治”",
+            "children": [
+              {
+                "label": "西汉的建立",
+                "children": []
+              },
+              {
+                "label": "休养生息政策和“文景之治”",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "汉武帝巩固大一统王朝",
+            "children": [
+              {
+                "label": "“推恩令”的实施",
+                "children": []
+              },
+              {
+                "label": "刺史和司隶校尉的设立",
+                "children": []
+              },
+              {
+                "label": "“罢黜百家，独尊儒术”",
+                "children": []
+              },
+              {
+                "label": "统一铸币，盐铁专卖",
+                "children": []
+              },
+              {
+                "label": "北击匈奴",
+                "children": []
+              },
+              {
+                "label": "汉武帝巩固大一统措施的作用",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "东汉的兴衰",
+            "children": [
+              {
+                "label": "东汉的建立和光武中兴",
+                "children": []
+              },
+              {
+                "label": "外戚宦官交替专权",
+                "children": []
+              },
+              {
+                "label": "黄巾起义",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "两汉经济的发展",
+            "children": [
+              {
+                "label": "治理黄河和农业的进步",
+                "children": []
+              },
+              {
+                "label": "汉代丝织和冶炼技术的提高",
+                "children": []
+              },
+              {
+                "label": "汉代商业的发展和重农抑商政策",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "沟通中外文明的“丝绸之路”",
+            "children": [
+              {
+                "label": "张骞通西域",
+                "children": []
+              },
+              {
+                "label": "丝绸之路",
+                "children": []
+              },
+              {
+                "label": "“海上丝绸之路”的开通",
+                "children": []
+              },
+              {
+                "label": "西域都护的设立",
+                "children": []
+              },
+              {
+                "label": "班超经营西域",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "秦汉的科技和文化",
+            "children": [
+              {
+                "label": "轰动世界的秦兵马俑",
+                "children": []
+              },
+              {
+                "label": "造纸术的发明和改进",
+                "children": []
+              },
+              {
+                "label": "张仲景和华佗",
+                "children": []
+              },
+              {
+                "label": "《九章算术》",
+                "children": []
+              },
+              {
+                "label": "张衡与地动仪",
+                "children": []
+              },
+              {
+                "label": "司马迁与《史记》",
+                "children": []
+              },
+              {
+                "label": "道教的兴起",
+                "children": []
+              },
+              {
+                "label": "佛教的传入",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "三国两晋南北朝时期：政权分立与民族交融",
+        "children": [
+          {
+            "label": "三国鼎立",
+            "children": [
+              {
+                "label": "官渡之战和曹操统一北方",
+                "children": []
+              },
+              {
+                "label": "赤壁之战",
+                "children": []
+              },
+              {
+                "label": "三国鼎立",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "西晋的短暂统一和北方各族的内迁",
+            "children": [
+              {
+                "label": "西晋的兴亡",
+                "children": []
+              },
+              {
+                "label": "八王之乱",
+                "children": []
+              },
+              {
+                "label": "北方游牧民族的内迁",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "东晋南朝时期江南地区的开发",
+            "children": [
+              {
+                "label": "东晋的兴亡",
+                "children": []
+              },
+              {
+                "label": "南朝的政治",
+                "children": []
+              },
+              {
+                "label": "人口南迁和江南地区的开发",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "北魏政治和北方民族大交融",
+            "children": [
+              {
+                "label": "淝水之战",
+                "children": []
+              },
+              {
+                "label": "北魏孝文帝改革",
+                "children": []
+              },
+              {
+                "label": "北方的统一和民族融合",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "魏晋南北朝的科技与文化",
+            "children": [
+              {
+                "label": "科学家祖冲之",
+                "children": []
+              },
+              {
+                "label": "贾思勰和《齐民要术》",
+                "children": []
+              },
+              {
+                "label": "郦道元和《水经注》",
+                "children": []
+              },
+              {
+                "label": "汉字的演变和书法艺术",
+                "children": []
+              },
+              {
+                "label": "魏晋南北朝时期的绘画",
+                "children": []
+              },
+              {
+                "label": "佛教的兴盛和石窟艺术的繁荣",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "隋唐时期：繁荣与开放的时代",
+        "children": [
+          {
+            "label": "隋朝的统一与灭亡",
+            "children": [
+              {
+                "label": "隋朝的建立和统一",
+                "children": []
+              },
+              {
+                "label": "大运河的开通",
+                "children": []
+              },
+              {
+                "label": "隋朝的灭亡",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "从“贞观之治”到“开元盛世”",
+            "children": [
+              {
+                "label": "唐朝的建立",
+                "children": []
+              },
+              {
+                "label": "唐太宗与“贞观之治”",
+                "children": []
+              },
+              {
+                "label": "女皇帝武则天",
+                "children": []
+              },
+              {
+                "label": "唐玄宗与“开元盛世”",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "科举制的创立与发展",
+            "children": [
+              {
+                "label": "科举制的创建与发展",
+                "children": []
+              },
+              {
+                "label": "科举制的影响与评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "盛唐气象",
+            "children": [
+              {
+                "label": "唐代经济的繁荣",
+                "children": []
+              },
+              {
+                "label": "唐代民族交往与交融",
+                "children": []
+              },
+              {
+                "label": "开放包容的社会风气",
+                "children": []
+              },
+              {
+                "label": "唐代的文学艺术",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "唐朝的中外文化交流",
+            "children": [
+              {
+                "label": "遣唐使",
+                "children": []
+              },
+              {
+                "label": "鉴真东渡",
+                "children": []
+              },
+              {
+                "label": "玄奘西行",
+                "children": []
+              },
+              {
+                "label": "唐与新罗的交往",
+                "children": []
+              },
+              {
+                "label": "国际大都市长安",
+                "children": []
+              },
+              {
+                "label": "唐代对外交流频繁的原因",
+                "children": []
+              },
+              {
+                "label": "唐代对外交流的影响和启示",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "安史之乱与唐朝衰亡",
+            "children": [
+              {
+                "label": "安史之乱",
+                "children": []
+              },
+              {
+                "label": "黄巢起义与唐朝灭亡",
+                "children": []
+              },
+              {
+                "label": "五代十国的更迭与分立",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "辽宋夏金元时期：民族关系发展和社会变化",
+        "children": [
+          {
+            "label": "北宋的政治",
+            "children": [
+              {
+                "label": "北宋的建立",
+                "children": []
+              },
+              {
+                "label": "宋太祖强化中央集权",
+                "children": []
+              },
+              {
+                "label": "宋朝重文轻武政策",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "辽、西夏与北宋的并立",
+            "children": [
+              {
+                "label": "契丹族和党项族政权的建立",
+                "children": []
+              },
+              {
+                "label": "辽与北宋的和战",
+                "children": []
+              },
+              {
+                "label": "西夏和北宋的关系",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "金与南宋的对峙",
+            "children": [
+              {
+                "label": "女真族政权的建立",
+                "children": []
+              },
+              {
+                "label": "金灭辽及北宋",
+                "children": []
+              },
+              {
+                "label": "南宋的建立",
+                "children": []
+              },
+              {
+                "label": "岳飞抗金",
+                "children": []
+              },
+              {
+                "label": "宋金对峙局面的形成",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "宋代经济的发展",
+            "children": [
+              {
+                "label": "经济重心南移",
+                "children": []
+              },
+              {
+                "label": "宋代农业的发展",
+                "children": []
+              },
+              {
+                "label": "宋代手工业的兴盛",
+                "children": []
+              },
+              {
+                "label": "宋代商业贸易的繁荣",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "蒙古族的兴起与元朝的建立",
+            "children": [
+              {
+                "label": "成吉思汗统一蒙古",
+                "children": []
+              },
+              {
+                "label": "元朝的建立与统一",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "元朝的统治",
+            "children": [
+              {
+                "label": "元朝的疆域",
+                "children": []
+              },
+              {
+                "label": "行省制度",
+                "children": []
+              },
+              {
+                "label": "元朝对边疆地区的管辖",
+                "children": []
+              },
+              {
+                "label": "民族融合与回族的形成",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "宋元时期的都市和文化",
+            "children": [
+              {
+                "label": "宋元时期的社会生活",
+                "children": []
+              },
+              {
+                "label": "宋词",
+                "children": []
+              },
+              {
+                "label": "元曲",
+                "children": []
+              },
+              {
+                "label": "司马光和《资治通鉴》",
+                "children": []
+              },
+              {
+                "label": "宋元时期风格多样的绘画和书法",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "宋元时期的科技与中外交通",
+            "children": [
+              {
+                "label": "活字印刷术的发明",
+                "children": []
+              },
+              {
+                "label": "指南针的应用",
+                "children": []
+              },
+              {
+                "label": "火药的应用",
+                "children": []
+              },
+              {
+                "label": "宋元时期发达的中外交通",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "明清时期：统一多民族国家的巩固与发展",
+        "children": [
+          {
+            "label": "明朝的统治",
+            "children": [
+              {
+                "label": "明朝的建立",
+                "children": []
+              },
+              {
+                "label": "废行省，设三司",
+                "children": []
+              },
+              {
+                "label": "废除丞相制度",
+                "children": []
+              },
+              {
+                "label": "五军都督府的设立",
+                "children": []
+              },
+              {
+                "label": "厂卫制度的设立",
+                "children": []
+              },
+              {
+                "label": "八股取士",
+                "children": []
+              },
+              {
+                "label": "内阁的设立",
+                "children": []
+              },
+              {
+                "label": "明成祖加强中央集权",
+                "children": []
+              },
+              {
+                "label": "明朝加强专制主义中央集权的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "明代经济的发展",
+            "children": [
+              {
+                "label": "明代农业的发展",
+                "children": []
+              },
+              {
+                "label": "明代手工业的发展",
+                "children": []
+              },
+              {
+                "label": "明代商业的发展",
+                "children": []
+              },
+              {
+                "label": "资本主义萌芽的出现",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "明朝的对外关系",
+            "children": [
+              {
+                "label": "郑和下西洋",
+                "children": []
+              },
+              {
+                "label": "戚继光抗倭",
+                "children": []
+              },
+              {
+                "label": "葡萄牙攫取澳门的居住权",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "明朝的科技、建筑与文学",
+            "children": [
+              {
+                "label": "李时珍与《本草纲目》",
+                "children": []
+              },
+              {
+                "label": "宋应星与《天工开物》",
+                "children": []
+              },
+              {
+                "label": "徐光启与《农政全书》",
+                "children": []
+              },
+              {
+                "label": "明长城",
+                "children": []
+              },
+              {
+                "label": "北京城",
+                "children": []
+              },
+              {
+                "label": "明代的小说",
+                "children": []
+              },
+              {
+                "label": "明代的戏剧",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "明朝的灭亡",
+            "children": [
+              {
+                "label": "明中后期政治腐败与社会动荡",
+                "children": []
+              },
+              {
+                "label": "李自成起义推翻明朝",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "统一多民族国家的巩固和发展",
+            "children": [
+              {
+                "label": "满洲的兴起和清朝的建立",
+                "children": []
+              },
+              {
+                "label": "郑成功收复台湾",
+                "children": []
+              },
+              {
+                "label": "清朝在台湾建制",
+                "children": []
+              },
+              {
+                "label": "清廷对西藏地区的有效管辖",
+                "children": []
+              },
+              {
+                "label": "巩固西北边疆",
+                "children": []
+              },
+              {
+                "label": "雅克萨反击战",
+                "children": []
+              },
+              {
+                "label": "清朝的疆域",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "清朝前期社会经济的发展",
+            "children": [
+              {
+                "label": "清前期农业生产的恢复和发展",
+                "children": []
+              },
+              {
+                "label": "清前期手工业的发展",
+                "children": []
+              },
+              {
+                "label": "清前期商业的发展",
+                "children": []
+              },
+              {
+                "label": "清前期人口的增长和流动",
+                "children": []
+              },
+              {
+                "label": "康乾盛世",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "清朝君主专制的强化",
+            "children": [
+              {
+                "label": "军机处的设立",
+                "children": []
+              },
+              {
+                "label": "文字狱与文化专制政策",
+                "children": []
+              },
+              {
+                "label": "不断加剧的社会矛盾",
+                "children": []
+              },
+              {
+                "label": "闭关锁国政策",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "清朝前期的文学艺术",
+            "children": [
+              {
+                "label": "古典小说的高峰",
+                "children": []
+              },
+              {
+                "label": "昆曲和京剧",
+                "children": []
+              },
+              {
+                "label": "明清书法绘画艺术",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "中国近代史",
+    "children": [
+      {
+        "label": "中国开始沦为半殖民地半封建社会",
+        "children": [
+          {
+            "label": "鸦片战争",
+            "children": [
+              {
+                "label": "鸦片走私与林则徐禁烟",
+                "children": []
+              },
+              {
+                "label": "英国发动鸦片战争的原因",
+                "children": []
+              },
+              {
+                "label": "鸦片战争的过程",
+                "children": []
+              },
+              {
+                "label": "《南京条约》",
+                "children": []
+              },
+              {
+                "label": "《虎门条约》",
+                "children": []
+              },
+              {
+                "label": "鸦片战争中国战败的原因及教训",
+                "children": []
+              },
+              {
+                "label": "鸦片战争的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "第二次鸦片战争",
+            "children": [
+              {
+                "label": "第二次鸦片战争爆发的原因",
+                "children": []
+              },
+              {
+                "label": "第二次鸦片战争的过程",
+                "children": []
+              },
+              {
+                "label": "火烧圆明园",
+                "children": []
+              },
+              {
+                "label": "《天津条约》",
+                "children": []
+              },
+              {
+                "label": "《北京条约》",
+                "children": []
+              },
+              {
+                "label": "俄国侵占我国北方大片领土",
+                "children": []
+              },
+              {
+                "label": "第二次鸦片战争的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "太平天国运动",
+            "children": [
+              {
+                "label": "太平天国运动的背景",
+                "children": []
+              },
+              {
+                "label": "太平天国运动的过程",
+                "children": []
+              },
+              {
+                "label": "《天朝田亩制度》",
+                "children": []
+              },
+              {
+                "label": "《资政新篇》",
+                "children": []
+              },
+              {
+                "label": "太平天国运动的影响和评价",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "近代化的早期探索与民族危机的加剧",
+        "children": [
+          {
+            "label": "洋务运动",
+            "children": [
+              {
+                "label": "洋务派代表人物及其思想主张",
+                "children": []
+              },
+              {
+                "label": "洋务运动的口号和目的",
+                "children": []
+              },
+              {
+                "label": "近代军事工业的创办",
+                "children": []
+              },
+              {
+                "label": "近代民用企业的创办",
+                "children": []
+              },
+              {
+                "label": "边疆危机和左宗棠收复新疆",
+                "children": []
+              },
+              {
+                "label": "建立新式海陆军",
+                "children": []
+              },
+              {
+                "label": "新式学堂和新式人才的培养",
+                "children": []
+              },
+              {
+                "label": "洋务运动的评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "甲午中日战争与瓜分中国狂潮",
+            "children": [
+              {
+                "label": "甲午中日战争",
+                "children": []
+              },
+              {
+                "label": "《马关条约》",
+                "children": []
+              },
+              {
+                "label": "台湾人民反割台斗争",
+                "children": []
+              },
+              {
+                "label": "瓜分中国狂潮与“门户开放”政策",
+                "children": []
+              },
+              {
+                "label": "甲午中日战争中国战败的原因",
+                "children": []
+              },
+              {
+                "label": "甲午中日战争的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "戊戌变法",
+            "children": [
+              {
+                "label": "戊戌变法的背景和目的",
+                "children": []
+              },
+              {
+                "label": "公车上书",
+                "children": []
+              },
+              {
+                "label": "维新派和维新变法思想的传播",
+                "children": []
+              },
+              {
+                "label": "百日维新",
+                "children": []
+              },
+              {
+                "label": "戊戌变法失败的原因",
+                "children": []
+              },
+              {
+                "label": "戊戌变法的评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "抗击八国联军",
+            "children": [
+              {
+                "label": "义和团运动",
+                "children": []
+              },
+              {
+                "label": "八国联军侵华战争及其影响",
+                "children": []
+              },
+              {
+                "label": "《辛丑条约》",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "近代列强侵华战争和不平等条约的影响",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "资产阶级民主革命与中华民国的建立",
+        "children": [
+          {
+            "label": "革命先行者孙中山",
+            "children": [
+              {
+                "label": "清末资产阶级革命思想的传播",
+                "children": []
+              },
+              {
+                "label": "中国同盟会的建立",
+                "children": []
+              },
+              {
+                "label": "三民主义的提出",
+                "children": []
+              },
+              {
+                "label": "孙中山的革命及其历史贡献",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "辛亥革命",
+            "children": [
+              {
+                "label": "清末民主革命风潮",
+                "children": []
+              },
+              {
+                "label": "武昌起义",
+                "children": []
+              },
+              {
+                "label": "辛亥革命的影响及评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "中华民国的创建",
+            "children": [
+              {
+                "label": "中华民国的建立",
+                "children": []
+              },
+              {
+                "label": "清帝退位和袁世凯窃取革命果实",
+                "children": []
+              },
+              {
+                "label": "《中华民国临时约法》",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "北洋政府的黑暗统治",
+            "children": [
+              {
+                "label": "袁世凯建立独裁统治和二次革命",
+                "children": []
+              },
+              {
+                "label": "袁世凯复辟帝制和护国战争",
+                "children": []
+              },
+              {
+                "label": "北洋军阀割据和护法运动",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "新民主主义革命的开始",
+        "children": [
+          {
+            "label": "新文化运动",
+            "children": [
+              {
+                "label": "新文化运动的兴起",
+                "children": []
+              },
+              {
+                "label": "新文化运动的内容",
+                "children": []
+              },
+              {
+                "label": "新文化运动的评价",
+                "children": []
+              },
+              {
+                "label": "马克思主义的传播",
+                "children": []
+              },
+              {
+                "label": "近代中国向西方学习的历程",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "五四运动",
+            "children": [
+              {
+                "label": "五四运动的背景",
+                "children": []
+              },
+              {
+                "label": "五四运动的过程",
+                "children": []
+              },
+              {
+                "label": "五四运动的历史意义",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "中国共产党诞生",
+            "children": [
+              {
+                "label": "中国共产党诞生的历史条件",
+                "children": []
+              },
+              {
+                "label": "中共一大和中国共产党的成立",
+                "children": []
+              },
+              {
+                "label": "中国共产党诞生的历史意义",
+                "children": []
+              },
+              {
+                "label": "中共二大",
+                "children": []
+              },
+              {
+                "label": "全国工人运动的高涨",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "从国共合作到国共对峙",
+        "children": [
+          {
+            "label": "北伐战争",
+            "children": [
+              {
+                "label": "国民党一大和国共合作的实现",
+                "children": []
+              },
+              {
+                "label": "黄埔军校的建立",
+                "children": []
+              },
+              {
+                "label": "北伐战争",
+                "children": []
+              },
+              {
+                "label": "国民革命的失败",
+                "children": []
+              },
+              {
+                "label": "南京国民政府的建立和全国统一",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "毛泽东开辟井冈山道路",
+            "children": [
+              {
+                "label": "南昌起义",
+                "children": []
+              },
+              {
+                "label": "八七会议和秋收起义",
+                "children": []
+              },
+              {
+                "label": "井冈山会师和工农红军的创建",
+                "children": []
+              },
+              {
+                "label": "“工农武装割据”",
+                "children": []
+              },
+              {
+                "label": "古田会议",
+                "children": []
+              },
+              {
+                "label": "中华苏维埃共和国临时中央政府成立",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "中国工农红军长征",
+            "children": [
+              {
+                "label": "长征的原因与过程",
+                "children": []
+              },
+              {
+                "label": "遵义会议",
+                "children": []
+              },
+              {
+                "label": "长征胜利的历史意义",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "中华民族的抗日战争",
+        "children": [
+          {
+            "label": "从九一八事变到西安事变",
+            "children": [
+              {
+                "label": "九一八事变",
+                "children": []
+              },
+              {
+                "label": "华北危机与一二·九运动",
+                "children": []
+              },
+              {
+                "label": "西安事变",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "七七事变与全民族抗战",
+            "children": [
+              {
+                "label": "七七事变",
+                "children": []
+              },
+              {
+                "label": "第二次国共合作",
+                "children": []
+              },
+              {
+                "label": "淞沪会战",
+                "children": []
+              },
+              {
+                "label": "南京大屠杀",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "正面战场的抗战",
+            "children": [
+              {
+                "label": "台儿庄战役",
+                "children": []
+              },
+              {
+                "label": "武汉会战",
+                "children": []
+              },
+              {
+                "label": "长沙会战",
+                "children": []
+              },
+              {
+                "label": "豫湘桂战役",
+                "children": []
+              },
+              {
+                "label": "正面战场的评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "敌后战场的抗战",
+            "children": [
+              {
+                "label": "平型关大捷",
+                "children": []
+              },
+              {
+                "label": "抗日根据地的建立和发展",
+                "children": []
+              },
+              {
+                "label": "百团大战",
+                "children": []
+              },
+              {
+                "label": "敌后战场的重要作用",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "抗日战争的胜利",
+            "children": [
+              {
+                "label": "社会各界的抗日救亡",
+                "children": []
+              },
+              {
+                "label": "中共七大",
+                "children": []
+              },
+              {
+                "label": "抗日战争胜利及其原因",
+                "children": []
+              },
+              {
+                "label": "抗日战争胜利的伟大意义",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "解放战争",
+        "children": [
+          {
+            "label": "内战爆发",
+            "children": [
+              {
+                "label": "重庆谈判",
+                "children": []
+              },
+              {
+                "label": "全面内战的爆发和解放区军民的自卫反击",
+                "children": []
+              },
+              {
+                "label": "转战陕北和粉碎重点进攻",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "人民解放战争的胜利",
+            "children": [
+              {
+                "label": "解放区的土地改革",
+                "children": []
+              },
+              {
+                "label": "挺进大别山",
+                "children": []
+              },
+              {
+                "label": "三大战役",
+                "children": []
+              },
+              {
+                "label": "渡江战役和南京解放",
+                "children": []
+              },
+              {
+                "label": "七届二中全会的召开",
+                "children": []
+              },
+              {
+                "label": "人民解放战争胜利的原因",
+                "children": []
+              },
+              {
+                "label": "解放战争胜利的意义",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "近代经济、社会生活与教育文化事业的发展",
+        "children": [
+          {
+            "label": "经济和社会生活的变化",
+            "children": [
+              {
+                "label": "民族资本主义的发展",
+                "children": []
+              },
+              {
+                "label": "近代著名的民族资本家",
+                "children": []
+              },
+              {
+                "label": "近代社会生活的变化",
+                "children": []
+              },
+              {
+                "label": "近代科技的进步",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "教育文化事业的发展",
+            "children": [
+              {
+                "label": "开眼看世界的思想家",
+                "children": []
+              },
+              {
+                "label": "近代教育的发展",
+                "children": []
+              },
+              {
+                "label": "近代新闻出版业的发展",
+                "children": []
+              },
+              {
+                "label": "近代文学艺术的成就",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "中国现代史",
+    "children": [
+      {
+        "label": "中华人民共和国的成立和巩固",
+        "children": [
+          {
+            "label": "中华人民共和国成立",
+            "children": [
+              {
+                "label": "中国人民政治协商会议",
+                "children": []
+              },
+              {
+                "label": "中华人民共和国的成立及其历史意义",
+                "children": []
+              },
+              {
+                "label": "西藏和平解放",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "抗美援朝",
+            "children": [
+              {
+                "label": "抗美援朝，保家卫国",
+                "children": []
+              },
+              {
+                "label": "战斗英雄黄继光和邱少云",
+                "children": []
+              },
+              {
+                "label": "抗美援朝战争胜利的历史意义",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "土地改革",
+            "children": [
+              {
+                "label": "《中华人民共和国土地改革法》的实施",
+                "children": []
+              },
+              {
+                "label": "土地改革的意义",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "社会主义制度的建立与社会主义建设的探索",
+        "children": [
+          {
+            "label": "工业化起步和人民代表大会制度的确立",
+            "children": [
+              {
+                "label": "第一个五年计划",
+                "children": []
+              },
+              {
+                "label": "人民代表大会制度的确立",
+                "children": []
+              },
+              {
+                "label": "新中国第一部宪法的颁布",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "三大改造",
+            "children": [
+              {
+                "label": "农业合作化",
+                "children": []
+              },
+              {
+                "label": "手工业合作化",
+                "children": []
+              },
+              {
+                "label": "公私合营",
+                "children": []
+              },
+              {
+                "label": "三大改造的评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "艰辛探索与建设成就",
+            "children": [
+              {
+                "label": "中国共产党第八次全国代表大会",
+                "children": []
+              },
+              {
+                "label": "总路线、“大跃进”和人民公社化运动",
+                "children": []
+              },
+              {
+                "label": "国民经济的调整",
+                "children": []
+              },
+              {
+                "label": "“文化大革命”",
+                "children": []
+              },
+              {
+                "label": "探索时期的建设成就",
+                "children": []
+              },
+              {
+                "label": "探索时期的模范人物",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "中国特色社会主义道路",
+        "children": [
+          {
+            "label": "伟大的历史转折",
+            "children": [
+              {
+                "label": "真理标准问题的讨论和十一届三中全会的召开",
+                "children": []
+              },
+              {
+                "label": "平反冤假错案和指导思想的拨乱反正",
+                "children": []
+              },
+              {
+                "label": "新时期的民主法制建设",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "经济体制改革",
+            "children": [
+              {
+                "label": "家庭联产承包责任制和农村经济体制改革",
+                "children": []
+              },
+              {
+                "label": "城市经济体制改革",
+                "children": []
+              },
+              {
+                "label": "社会主义市场经济体制",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "对外开放",
+            "children": [
+              {
+                "label": "经济特区的建立",
+                "children": []
+              },
+              {
+                "label": "对外开放格局的初步形成",
+                "children": []
+              },
+              {
+                "label": "加入世界贸易组织",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "建设有中国特色的社会主义",
+            "children": [
+              {
+                "label": "邓小平理论的形成和指导地位的确立",
+                "children": []
+              },
+              {
+                "label": "中国共产党第十六次全国代表大会和“三个代表”重要思想",
+                "children": []
+              },
+              {
+                "label": "中国共产党第十七次全国代表大会和科学发展观",
+                "children": []
+              },
+              {
+                "label": "中国共产党第十八次全国代表大会",
+                "children": []
+              },
+              {
+                "label": "中国共产党第十九次全国代表大会和习近平新时代中国特色社会主义思想",
+                "children": []
+              },
+              {
+                "label": "中国特色社会主义理论体系的发展及意义",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "为实现中国梦而努力奋斗",
+            "children": [
+              {
+                "label": "中国梦宏伟蓝图",
+                "children": []
+              },
+              {
+                "label": "“四个全面”战略布局和五大发展理念",
+                "children": []
+              },
+              {
+                "label": "新时期经济建设的成就",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "民族团结与祖国统一",
+        "children": [
+          {
+            "label": "民族大团结",
+            "children": [
+              {
+                "label": "民族区域自治制度",
+                "children": []
+              },
+              {
+                "label": "民族共同繁荣发展",
+                "children": []
+              },
+              {
+                "label": "西部大开发和兴边富农",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "香港和澳门回归祖国",
+            "children": [
+              {
+                "label": "“一国两制”的构想",
+                "children": []
+              },
+              {
+                "label": "香港和澳门回归祖国",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "海峡两岸的交往",
+            "children": [
+              {
+                "label": "对台方针政策和“九二共识”",
+                "children": []
+              },
+              {
+                "label": "海峡两岸的沟通与交流",
+                "children": []
+              },
+              {
+                "label": "祖国统一的有利和不利因素",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "国防建设与外交成就",
+        "children": [
+          {
+            "label": "钢铁长城",
+            "children": [
+              {
+                "label": "海、陆、空军的建设",
+                "children": []
+              },
+              {
+                "label": "导弹部队的发展",
+                "children": []
+              },
+              {
+                "label": "新时代强军之路",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "独立自主的和平外交",
+            "children": [
+              {
+                "label": "独立自主的和平外交政策",
+                "children": []
+              },
+              {
+                "label": "和平共处五项原则的提出",
+                "children": []
+              },
+              {
+                "label": "周恩来出席万隆会议和日内瓦会议",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "外交事业的发展",
+            "children": [
+              {
+                "label": "恢复在联合国的合法席位",
+                "children": []
+              },
+              {
+                "label": "中美建交",
+                "children": []
+              },
+              {
+                "label": "中日建交",
+                "children": []
+              },
+              {
+                "label": "新时期的全方位外交",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "科技文化与社会生活",
+        "children": [
+          {
+            "label": "科技文化成就",
+            "children": [
+              {
+                "label": "“两弹一星”",
+                "children": []
+              },
+              {
+                "label": "载人航天工程",
+                "children": []
+              },
+              {
+                "label": "袁隆平和杂交水稻",
+                "children": []
+              },
+              {
+                "label": "青蒿素和生物医学的发展",
+                "children": []
+              },
+              {
+                "label": "863计划",
+                "children": []
+              },
+              {
+                "label": "计算机网络技术的发展",
+                "children": []
+              },
+              {
+                "label": "文化体育事业的发展",
+                "children": []
+              },
+              {
+                "label": "教育事业的发展",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "社会生活的变迁",
+            "children": [
+              {
+                "label": "日常生活的变化",
+                "children": []
+              },
+              {
+                "label": "就业和社会保障",
+                "children": []
+              },
+              {
+                "label": "交通运输的发展",
+                "children": []
+              },
+              {
+                "label": "电信事业的发展",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "世界古代史",
+    "children": [
+      {
+        "label": "人类的形成",
+        "children": [
+          {
+            "label": "人类的出现",
+            "children": []
+          },
+          {
+            "label": "氏族社会",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "古代亚非文明",
+        "children": [
+          {
+            "label": "古代埃及",
+            "children": [
+              {
+                "label": "尼罗河与古埃及文明",
+                "children": []
+              },
+              {
+                "label": "金字塔与法老的统治",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "古代两河流域",
+            "children": [
+              {
+                "label": "古代两河流域文明与巴比伦王国",
+                "children": []
+              },
+              {
+                "label": "《汉谟拉比法典》",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "古代印度",
+            "children": [
+              {
+                "label": "古代印度河流域文明",
+                "children": []
+              },
+              {
+                "label": "森严的种姓制度",
+                "children": []
+              },
+              {
+                "label": "佛教的创立与传播",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "古代欧洲文明",
+        "children": [
+          {
+            "label": "希腊城邦和亚历山大帝国",
+            "children": [
+              {
+                "label": "希腊城邦的形成与发展",
+                "children": []
+              },
+              {
+                "label": "雅典的民主政治",
+                "children": []
+              },
+              {
+                "label": "亚历山大帝国",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "罗马城邦和罗马帝国",
+            "children": [
+              {
+                "label": "罗马共和国的兴亡",
+                "children": []
+              },
+              {
+                "label": "罗马帝国的兴亡",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "希腊罗马古典文化",
+            "children": [
+              {
+                "label": "希腊罗马的文学",
+                "children": []
+              },
+              {
+                "label": "希腊罗马的雕塑",
+                "children": []
+              },
+              {
+                "label": "希腊罗马的建筑",
+                "children": []
+              },
+              {
+                "label": "希腊罗马的哲学",
+                "children": []
+              },
+              {
+                "label": "希腊罗马的法学",
+                "children": []
+              },
+              {
+                "label": "希腊罗马的科学",
+                "children": []
+              },
+              {
+                "label": "公历的缘起",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "封建时代的欧洲",
+        "children": [
+          {
+            "label": "基督教的兴起和法兰克王国",
+            "children": [
+              {
+                "label": "基督教的兴起与传播",
+                "children": []
+              },
+              {
+                "label": "法兰克王国",
+                "children": []
+              },
+              {
+                "label": "封君与封臣",
+                "children": []
+              },
+              {
+                "label": "查理曼帝国",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "西欧庄园",
+            "children": [
+              {
+                "label": "庄园的领主与佃户",
+                "children": []
+              },
+              {
+                "label": "庄园法庭",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "中世纪城市和大学的兴起",
+            "children": [
+              {
+                "label": "自由和自治的城市",
+                "children": []
+              },
+              {
+                "label": "城市居民的身份",
+                "children": []
+              },
+              {
+                "label": "大学的兴起",
+                "children": []
+              },
+              {
+                "label": "西欧中世纪的著名建筑",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "拜占廷帝国和《查士丁尼法典》",
+            "children": [
+              {
+                "label": "查士丁尼及其法典",
+                "children": []
+              },
+              {
+                "label": "拜占庭的文化和建筑",
+                "children": []
+              },
+              {
+                "label": "拜占庭帝国的灭亡",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "封建时代的亚洲国家",
+        "children": [
+          {
+            "label": "古代日本",
+            "children": [
+              {
+                "label": "大化改新",
+                "children": []
+              },
+              {
+                "label": "武士和武士集团",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "阿拉伯帝国",
+            "children": [
+              {
+                "label": "伊斯兰教的创立与传播",
+                "children": []
+              },
+              {
+                "label": "阿拉伯帝国",
+                "children": []
+              },
+              {
+                "label": "阿拉伯文化",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "古代文明的传播",
+        "children": [
+          {
+            "label": "战争与文明传播",
+            "children": []
+          },
+          {
+            "label": "东西方文化交流",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "世界近代史",
+    "children": [
+      {
+        "label": "步入近代",
+        "children": [
+          {
+            "label": "西欧经济和社会的发展",
+            "children": [
+              {
+                "label": "新的生产和经营方式",
+                "children": []
+              },
+              {
+                "label": "富裕农民和市民阶层",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "文艺复兴运动",
+            "children": [
+              {
+                "label": "文艺复兴运动的背景",
+                "children": []
+              },
+              {
+                "label": "文艺复兴的代表人物及其成就",
+                "children": []
+              },
+              {
+                "label": "文艺复兴的实质",
+                "children": []
+              },
+              {
+                "label": "文艺复兴运动的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "探寻新航路",
+            "children": [
+              {
+                "label": "新航路开辟的原因",
+                "children": []
+              },
+              {
+                "label": "新航路开辟的条件",
+                "children": []
+              },
+              {
+                "label": "新航路开辟的过程",
+                "children": []
+              },
+              {
+                "label": "新航路开辟的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "早期殖民掠夺",
+            "children": [
+              {
+                "label": "葡萄牙与西班牙的殖民扩张",
+                "children": []
+              },
+              {
+                "label": "荷兰的殖民扩张",
+                "children": []
+              },
+              {
+                "label": "英国的殖民扩张",
+                "children": []
+              },
+              {
+                "label": "罪恶的“三角贸易”",
+                "children": []
+              },
+              {
+                "label": "殖民扩张的影响",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "资本主义制度的初步确立",
+        "children": [
+          {
+            "label": "君主立宪制的英国",
+            "children": [
+              {
+                "label": "英国资产阶级革命的背景",
+                "children": []
+              },
+              {
+                "label": "英国资产阶级革命的过程",
+                "children": []
+              },
+              {
+                "label": "《权利法案》",
+                "children": []
+              },
+              {
+                "label": "英国君主立宪制确立的意义",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "美国的独立",
+            "children": [
+              {
+                "label": "美国独立战争的背景",
+                "children": []
+              },
+              {
+                "label": "美国独立战争的过程",
+                "children": []
+              },
+              {
+                "label": "美国独立战争的评价",
+                "children": []
+              },
+              {
+                "label": "《独立宣言》",
+                "children": []
+              },
+              {
+                "label": "1787年宪法",
+                "children": []
+              },
+              {
+                "label": "华盛顿的贡献及评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "法国大革命和拿破仑帝国",
+            "children": [
+              {
+                "label": "启蒙运动",
+                "children": []
+              },
+              {
+                "label": "法国大革命的背景",
+                "children": []
+              },
+              {
+                "label": "法国大革命的过程",
+                "children": []
+              },
+              {
+                "label": "《人权宣言》",
+                "children": []
+              },
+              {
+                "label": "法国大革命的影响",
+                "children": []
+              },
+              {
+                "label": "拿破仑帝国",
+                "children": []
+              },
+              {
+                "label": "《拿破仑法典》",
+                "children": []
+              },
+              {
+                "label": "拿破仑的评价",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "工业革命和工人运动的兴起",
+        "children": [
+          {
+            "label": "第一次工业革命",
+            "children": [
+              {
+                "label": "英国兴起工业革命的条件",
+                "children": []
+              },
+              {
+                "label": "纺织技术的革新",
+                "children": []
+              },
+              {
+                "label": "蒸汽机和工厂制度的确立",
+                "children": []
+              },
+              {
+                "label": "汽船与火车的诞生",
+                "children": []
+              },
+              {
+                "label": "工业革命的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "马克思主义的诞生和国际工人运动的兴起",
+            "children": [
+              {
+                "label": "英国宪章运动",
+                "children": []
+              },
+              {
+                "label": "马克思主义诞生的条件",
+                "children": []
+              },
+              {
+                "label": "《共产党宣言》与马克思主义的诞生",
+                "children": []
+              },
+              {
+                "label": "马克思主义的影响",
+                "children": []
+              },
+              {
+                "label": "第一国际",
+                "children": []
+              },
+              {
+                "label": "巴黎公社",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "殖民地人民的反抗与资本主义制度的扩展",
+        "children": [
+          {
+            "label": "殖民地人民的反抗斗争",
+            "children": [
+              {
+                "label": "拉丁美洲独立运动",
+                "children": []
+              },
+              {
+                "label": "印度民族大起义",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "俄国的改革",
+            "children": [
+              {
+                "label": "彼得一世改革的背景",
+                "children": []
+              },
+              {
+                "label": "彼得一世改革的内容",
+                "children": []
+              },
+              {
+                "label": "彼得一世改革的评价",
+                "children": []
+              },
+              {
+                "label": "俄国1861年农奴制改革的背景",
+                "children": []
+              },
+              {
+                "label": "俄国1861年农奴制改革的内容",
+                "children": []
+              },
+              {
+                "label": "俄国1861年农奴制改革的评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "美国内战",
+            "children": [
+              {
+                "label": "美国内战爆发的背景",
+                "children": []
+              },
+              {
+                "label": "美国内战的过程",
+                "children": []
+              },
+              {
+                "label": "《解放黑人奴隶宣言》",
+                "children": []
+              },
+              {
+                "label": "《宅地法》",
+                "children": []
+              },
+              {
+                "label": "美国内战的评价",
+                "children": []
+              },
+              {
+                "label": "林肯的贡献及评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "日本明治维新",
+            "children": [
+              {
+                "label": "明治维新的背景",
+                "children": []
+              },
+              {
+                "label": "明治维新的内容",
+                "children": []
+              },
+              {
+                "label": "明治维新的评价",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "第二次工业革命和近代科学文化",
+        "children": [
+          {
+            "label": "第二次工业革命",
+            "children": [
+              {
+                "label": "科学技术的进步和电气时代的来临",
+                "children": []
+              },
+              {
+                "label": "内燃机和新的交通工具",
+                "children": []
+              },
+              {
+                "label": "化学工业和新材料",
+                "children": []
+              },
+              {
+                "label": "第二次工业革命的特点",
+                "children": []
+              },
+              {
+                "label": "第二次工业革命的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "工业化国家的社会变化",
+            "children": [
+              {
+                "label": "人口增长",
+                "children": []
+              },
+              {
+                "label": "大众教育的发展",
+                "children": []
+              },
+              {
+                "label": "城市化",
+                "children": []
+              },
+              {
+                "label": "环境污染和贫富分化加剧",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "近代科学与文化",
+            "children": [
+              {
+                "label": "牛顿的科学成就",
+                "children": []
+              },
+              {
+                "label": "达尔文与进化论",
+                "children": []
+              },
+              {
+                "label": "爱因斯坦的科学成就",
+                "children": []
+              },
+              {
+                "label": "巴尔扎克的成就",
+                "children": []
+              },
+              {
+                "label": "列夫·托尔斯泰的成就",
+                "children": []
+              },
+              {
+                "label": "贝多芬的成就",
+                "children": []
+              },
+              {
+                "label": "梵高的成就",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "世界现代史",
+    "children": [
+      {
+        "label": "第一次世界大战和战后初期的世界",
+        "children": [
+          {
+            "label": "第一次世界大战",
+            "children": [
+              {
+                "label": "第一次世界大战爆发的背景和原因",
+                "children": []
+              },
+              {
+                "label": "第一次世界大战的过程",
+                "children": []
+              },
+              {
+                "label": "第一次世界大战的实质",
+                "children": []
+              },
+              {
+                "label": "第一次世界大战的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "列宁与十月革命",
+            "children": [
+              {
+                "label": "十月革命的背景",
+                "children": []
+              },
+              {
+                "label": "十月革命的过程",
+                "children": []
+              },
+              {
+                "label": "苏维埃政权的建立和巩固",
+                "children": []
+              },
+              {
+                "label": "十月革命的历史意义",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "《凡尔赛条约》和《九国公约》",
+            "children": [
+              {
+                "label": "巴黎和会",
+                "children": []
+              },
+              {
+                "label": "《凡尔赛条约》",
+                "children": []
+              },
+              {
+                "label": "国际联盟",
+                "children": []
+              },
+              {
+                "label": "华盛顿会议",
+                "children": []
+              },
+              {
+                "label": "《九国公约》",
+                "children": []
+              },
+              {
+                "label": "凡尔赛—华盛顿体系的评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "苏联的社会主义建设",
+            "children": [
+              {
+                "label": "战时共产主义政策",
+                "children": []
+              },
+              {
+                "label": "新经济政策",
+                "children": []
+              },
+              {
+                "label": "苏联的成立",
+                "children": []
+              },
+              {
+                "label": "苏联的工业化",
+                "children": []
+              },
+              {
+                "label": "农业集体化",
+                "children": []
+              },
+              {
+                "label": "苏联模式的特点及其评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "亚非拉民族民主运动的高涨",
+            "children": [
+              {
+                "label": "印度的非暴力不合作运动",
+                "children": []
+              },
+              {
+                "label": "埃及的华夫脱运动",
+                "children": []
+              },
+              {
+                "label": "墨西哥的卡德纳斯改革",
+                "children": []
+              },
+              {
+                "label": "土耳其的凯末尔革命",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "经济大危机和第二次世界大战",
+        "children": [
+          {
+            "label": "罗斯福新政",
+            "children": [
+              {
+                "label": "经济大危机",
+                "children": []
+              },
+              {
+                "label": "罗斯福新政的措施",
+                "children": []
+              },
+              {
+                "label": "罗斯福新政的影响",
+                "children": []
+              },
+              {
+                "label": "罗斯福新政的特点和实质",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "法西斯国家的侵略扩张",
+            "children": [
+              {
+                "label": "意大利法西斯政权的建立和对外扩张",
+                "children": []
+              },
+              {
+                "label": "德国法西斯政权的建立和对外扩张",
+                "children": []
+              },
+              {
+                "label": "日本法西斯政权的建立和发动侵华战争",
+                "children": []
+              },
+              {
+                "label": "慕尼黑阴谋和英法美的绥靖政策",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "第二次世界大战",
+            "children": [
+              {
+                "label": "第二次世界大战的爆发",
+                "children": []
+              },
+              {
+                "label": "第二次世界大战的扩大",
+                "children": []
+              },
+              {
+                "label": "国际反法西斯联盟的建立",
+                "children": []
+              },
+              {
+                "label": "第二次世界大战的转折",
+                "children": []
+              },
+              {
+                "label": "开罗会议",
+                "children": []
+              },
+              {
+                "label": "德黑兰会议",
+                "children": []
+              },
+              {
+                "label": "雅尔塔会议",
+                "children": []
+              },
+              {
+                "label": "波茨坦会议和《波茨坦公告》",
+                "children": []
+              },
+              {
+                "label": "第二次世界大战的胜利",
+                "children": []
+              },
+              {
+                "label": "第二次世界大战的性质",
+                "children": []
+              },
+              {
+                "label": "世界反法西斯战争胜利的原因",
+                "children": []
+              },
+              {
+                "label": "第二次世界大战的影响及启示",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "二战后的世界变化",
+        "children": [
+          {
+            "label": "冷战",
+            "children": [
+              {
+                "label": "冷战的背景",
+                "children": []
+              },
+              {
+                "label": "丘吉尔的“铁幕”演说",
+                "children": []
+              },
+              {
+                "label": "杜鲁门主义和冷战的开始",
+                "children": []
+              },
+              {
+                "label": "马歇尔计划",
+                "children": []
+              },
+              {
+                "label": "德国的分裂",
+                "children": []
+              },
+              {
+                "label": "北约与华约的对峙",
+                "children": []
+              },
+              {
+                "label": "美苏争霸",
+                "children": []
+              },
+              {
+                "label": "冷战中的局部“热战”",
+                "children": []
+              },
+              {
+                "label": "美苏两极对峙格局的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "战后资本主义的新变化",
+            "children": [
+              {
+                "label": "欧洲的联合",
+                "children": []
+              },
+              {
+                "label": "美国的发展",
+                "children": []
+              },
+              {
+                "label": "日本的崛起",
+                "children": []
+              },
+              {
+                "label": "社会保障制度的建立及其评价",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "社会主义的发展与挫折",
+            "children": [
+              {
+                "label": "社会主义力量的壮大和苏联模式的推广",
+                "children": []
+              },
+              {
+                "label": "赫鲁晓夫改革",
+                "children": []
+              },
+              {
+                "label": "勃列日涅夫改革",
+                "children": []
+              },
+              {
+                "label": "戈尔巴乔夫改革",
+                "children": []
+              },
+              {
+                "label": "东欧剧变",
+                "children": []
+              },
+              {
+                "label": "苏联解体及其启示",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "亚非拉国家的新发展",
+            "children": [
+              {
+                "label": "万隆会议",
+                "children": []
+              },
+              {
+                "label": "非洲民族独立浪潮",
+                "children": []
+              },
+              {
+                "label": "拉美人民维护国家主权的斗争",
+                "children": []
+              },
+              {
+                "label": "亚洲国家的独立",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "走向和平发展的世界",
+        "children": [
+          {
+            "label": "联合国与世界贸易组织",
+            "children": [
+              {
+                "label": "联合国与国际安全",
+                "children": []
+              },
+              {
+                "label": "经济全球化与世界贸易组织",
+                "children": []
+              },
+              {
+                "label": "应对全球性问题的挑战",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "冷战后的世界格局",
+            "children": [
+              {
+                "label": "霸权主义与地区冲突",
+                "children": []
+              },
+              {
+                "label": "世界多极化趋势的发展",
+                "children": []
+              },
+              {
+                "label": "建立国际新秩序的努力",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "不断发展的现代社会",
+            "children": [
+              {
+                "label": "计算机网络和现代社会生活",
+                "children": []
+              },
+              {
+                "label": "妇女地位的提高",
+                "children": []
+              },
+              {
+                "label": "生态与人口问题",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "现代科学技术和文化",
+        "children": [
+          {
+            "label": "第三次科技革命",
+            "children": [
+              {
+                "label": "电子计算机和信息网络技术",
+                "children": []
+              },
+              {
+                "label": "生物工程",
+                "children": []
+              },
+              {
+                "label": "空间技术",
+                "children": []
+              },
+              {
+                "label": "第三次科技革命的特点",
+                "children": []
+              },
+              {
+                "label": "第三次科技革命的影响",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "现代文学和美术",
+            "children": [
+              {
+                "label": "20世纪著名文学家及其作品",
+                "children": []
+              },
+              {
+                "label": "现代美术",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "现代音乐和电影",
+            "children": [
+              {
+                "label": "现代音乐",
+                "children": []
+              },
+              {
+                "label": "影视艺术的发展",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "地方史",
+    "children": [
+      {
+        "label": "地方历史人物",
+        "children": []
+      },
+      {
+        "label": "地方历史古迹",
+        "children": []
+      },
+      {
+        "label": "地方文化遗产",
+        "children": []
+      }
+    ]
+  }
+]
