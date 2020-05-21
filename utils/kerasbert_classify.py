@@ -9,8 +9,10 @@ import jieba.analyse
 import numpy as np
 import requests
 
-from config import BERT_IP, DATA_TRANS_HOST, DATA_TRANS_PORT, DEFAULT_CLIENT_ID, DEFAULT_CLIENT_SECRET,\
-    READ_TIMEOUT, CONNECT_TIMEOUT
+from app import READ_TIMEOUT, CONNECT_TIMEOUT
+from config import BERT_IP, DATA_TRANS_HOST, DATA_TRANS_PORT, DEFAULT_CLIENT_ID, DEFAULT_CLIENT_SECRET
+import yaml
+from keras.backend import clear_session
 from bert_serving.client import BertClient
 from gensim import corpora, similarities, models as g_models
 from keras import losses, Sequential, models
@@ -65,11 +67,11 @@ def get_data(one_dict):
     # pos = []
     # neg = []
     # with codecs.open('./data/pos.txt', 'r', 'utf-8') as reader:
-    # 	for line in reader:
-    # 		pos.append(line.strip())
+    #   for line in reader:
+    #       pos.append(line.strip())
     # with codecs.open('./data/neg.txt', 'r', 'utf-8') as reader:
-    # 	for line in reader:
-    # 		neg.append(line.strip())
+    #   for line in reader:
+    #       neg.append(line.strip())
     # return pos, neg
     length = []
     contents = []
@@ -259,6 +261,31 @@ def get_return(ques_seg, points_tfidf):
     return points_str
 
 
+def get_return_(ques_seg, points_tfidf):
+    points_str = []
+    word4, word2 = [], []
+    for word in ques_seg:
+        if len(word) >= 3:
+            word4.append(word)
+        else:
+            word2.append(word)
+    for item in points_tfidf:
+        for word in word4:
+            if word in item and item not in points_str:
+                points_str.append(item)
+    for item in points_tfidf:
+        for word in word2:
+            if word in item and item not in points_str:
+                points_str.append(item)
+    if len(points_str) > 3:
+        points_str = points_str[0:3]
+    else:
+        for item in points_tfidf:
+            if item not in points_str and len(points_str) < 3:
+                points_str.append(item)
+    return points_str
+
+
 def per_knowledge(json_path):
     label = []
     with open(json_path, 'r', encoding='utf-8-sig') as load_f:
@@ -345,7 +372,7 @@ def pre_test(ques_path, json_path=None, know_label=None):
 
 def get_tree_data(subject_id, headers):
     url = "http://{}:{}/yangtze/recommend/tree/{}".format(DATA_TRANS_HOST, DATA_TRANS_PORT, subject_id)
-    resp = requests.get(url=url, params=None, headers=headers, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
+    resp = requests.get(url=url, params=None, headers=headers)
     json_data = resp.json()
     return json_data
 
@@ -390,11 +417,11 @@ def question_classify(item, headers, model=None):
             wordvec = wordvec.reshape((wordvec.shape[0], 1, wordvec.shape[1]))
             t2 = time.time()
             print("return sentence_vector by bert_as_service costs {}s".format(t2 - t1))
-
             t3 = time.time()
             # clear_session()
             # model = models.load_model('./keras_classify_model/keras_bert_lishi_cz.h5')
             y_pred = model.predict(wordvec)
+
             t4 = time.time()
             print("model predicts costs {}s".format(t4 - t3))
             chapter = 0
@@ -402,7 +429,7 @@ def question_classify(item, headers, model=None):
                 max_value = max(y_pred[i])
                 for j in range(len(y_pred[i])):
                     if max_value == y_pred[i][j]:
-                        chapter = j
+                        chapter = j + 1
                         break
             know_label = know_label_[chapter]
             t5 = time.time()
@@ -411,6 +438,15 @@ def question_classify(item, headers, model=None):
             print("get knowledge similarity costs {}s".format(t6 - t5))
             point_list = get_point_list(know_label, simi_tfidf)
             points = sorted(point_list, key=lambda k: k[1], reverse=True)[0:50]
+            # 返回题干的分词
+            ques_seg = []
+            stopwords = stop_words_list
+            words = jieba.cut(content[0])
+            for item in words:
+                # if item not in stopwords and len(item) >= 2:
+                if len(item) >= 2:
+                    ques_seg.append(item)
+            points_str = get_return_(ques_seg, points)
         else:
             json_data = get_tree_data(subject_id, headers)
             json_data = json_data.get("data")
@@ -423,15 +459,15 @@ def question_classify(item, headers, model=None):
                     simi_tfidf.append(simi)
             point_list = get_point_list_(know_label, simi_tfidf)
             points = sort(point_list)[0:50]
-        # 返回题干的分词
-        ques_seg = []
-        stopwords = stop_words_list
-        words = jieba.cut(content[0])
-        for item in words:
-            # if item not in stopwords and len(item) >= 2:
-            if len(item) >= 2:
-                ques_seg.append(item)
-        points_str = get_return(ques_seg, points)
+            # 返回题干的分词
+            ques_seg = []
+            stopwords = stop_words_list
+            words = jieba.cut(content)
+            for item in words:
+                # if item not in stopwords and len(item) >= 2:
+                if len(item) >= 2:
+                    ques_seg.append(item)
+            points_str = get_return(ques_seg, points)
         return points_str
 
 
@@ -470,8 +506,8 @@ def train_kerasbert(ques_path, subject_id):
 
     # y = np.concatenate((np.zeros(label1, dtype=int), np.ones(label2, dtype=int) * 2, np.ones(label3, dtype=int) * 1,
     #                     np.ones(label4, dtype=int) * 4, np.ones(label5, dtype=int) * 3))
-    # 					# np.ones(37, dtype=int)*6,
-    # 					# np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
+    #                   # np.ones(37, dtype=int)*6,
+    #                   # np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
     y = np.concatenate(data)
     y = to_categorical(y, num_classes=label_count)
     # # p = Dense(2, activation='sigmoid')(x)
@@ -489,28 +525,28 @@ def train_kerasbert(ques_path, subject_id):
 #     # # 标签类
 #     y = np.concatenate((np.zeros(399, dtype=int), np.ones(202, dtype=int) * 2, np.ones(214, dtype=int) * 1,
 #                         np.ones(78, dtype=int) * 4, np.ones(79, dtype=int) * 3))
-#     # 					# np.ones(37, dtype=int)*6,
-#     # 					# np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
+#     #                     # np.ones(37, dtype=int)*6,
+#     #                     # np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
 #     y = to_categorical(y, num_classes=5)
 #     # # p = Dense(2, activation='sigmoid')(x)
 #     X_train, X_test, Y_train, Y_test = train_test_split(wordvec, y, test_size=0.10, random_state=42)
 #     train(X_train, Y_train)
 #
-# 	with open('keras_bert_lishi_cz.yml', 'r') as f:
-# 		yaml_string = yaml.load(f)
-# 	model = model_from_yaml(yaml_string)
-# 	model.load_weights('keras_bert_lishi_cz.h5')
+#   with open('keras_bert_lishi_cz.yml', 'r') as f:
+#       yaml_string = yaml.load(f)
+#   model = model_from_yaml(yaml_string)
+#   model.load_weights('keras_bert_lishi_cz.h5')
 #
-# 	y_pred = model.predict(X_test)
-# 	for i in range(len(y_pred)):
-# 		max_value = max(y_pred[i])
-# 		chapter = 0
-# 		for j in range(len(y_pred[i])):
-# 			if max_value == y_pred[i][j]:
-# 				y_pred[i][j] = 1
-# 			else:
-# 				y_pred[i][j] = 0
-# 	print('accuracy %s' % accuracy_score(y_pred, Y_test))
+#   y_pred = model.predict(X_test)
+#   for i in range(len(y_pred)):
+#       max_value = max(y_pred[i])
+#       chapter = 0
+#       for j in range(len(y_pred[i])):
+#           if max_value == y_pred[i][j]:
+#               y_pred[i][j] = 1
+#           else:
+#               y_pred[i][j] = 0
+#   print('accuracy %s' % accuracy_score(y_pred, Y_test))
 
 # [X1, X2] = get_encode(string, token_dict)
 # wordvec = build_bert_model(X1, X2)
