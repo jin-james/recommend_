@@ -35,7 +35,7 @@ def get_know(question_id):
     url = "http://{}:{}/yangtze/recommend_ques/info/{}".format(DATA_TRANS_HOST, DATA_TRANS_PORT, question_id)
     t1 = time.time()
 
-    resp = requests.get(url=url, params=None, headers=headers)
+    resp = requests.get(url=url, params=None, headers=headers, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
     question_data = resp.json()
     question_data = question_data["data"]
     with graph.as_default():

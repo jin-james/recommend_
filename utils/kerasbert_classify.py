@@ -67,11 +67,11 @@ def get_data(one_dict):
     # pos = []
     # neg = []
     # with codecs.open('./data/pos.txt', 'r', 'utf-8') as reader:
-    #   for line in reader:
-    #       pos.append(line.strip())
+    # 	for line in reader:
+    # 		pos.append(line.strip())
     # with codecs.open('./data/neg.txt', 'r', 'utf-8') as reader:
-    #   for line in reader:
-    #       neg.append(line.strip())
+    # 	for line in reader:
+    # 		neg.append(line.strip())
     # return pos, neg
     length = []
     contents = []
@@ -506,8 +506,8 @@ def train_kerasbert(ques_path, subject_id):
 
     # y = np.concatenate((np.zeros(label1, dtype=int), np.ones(label2, dtype=int) * 2, np.ones(label3, dtype=int) * 1,
     #                     np.ones(label4, dtype=int) * 4, np.ones(label5, dtype=int) * 3))
-    #                   # np.ones(37, dtype=int)*6,
-    #                   # np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
+    # 					# np.ones(37, dtype=int)*6,
+    # 					# np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
     y = np.concatenate(data)
     y = to_categorical(y, num_classes=label_count)
     # # p = Dense(2, activation='sigmoid')(x)
@@ -525,28 +525,28 @@ def train_kerasbert(ques_path, subject_id):
 #     # # 标签类
 #     y = np.concatenate((np.zeros(399, dtype=int), np.ones(202, dtype=int) * 2, np.ones(214, dtype=int) * 1,
 #                         np.ones(78, dtype=int) * 4, np.ones(79, dtype=int) * 3))
-#     #                     # np.ones(37, dtype=int)*6,
-#     #                     # np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
+#     # 					# np.ones(37, dtype=int)*6,
+#     # 					# np.zeros(3, dtype=int), np.ones(0, dtype=int)*7))
 #     y = to_categorical(y, num_classes=5)
 #     # # p = Dense(2, activation='sigmoid')(x)
 #     X_train, X_test, Y_train, Y_test = train_test_split(wordvec, y, test_size=0.10, random_state=42)
 #     train(X_train, Y_train)
 #
-#   with open('keras_bert_lishi_cz.yml', 'r') as f:
-#       yaml_string = yaml.load(f)
-#   model = model_from_yaml(yaml_string)
-#   model.load_weights('keras_bert_lishi_cz.h5')
+# 	with open('keras_bert_lishi_cz.yml', 'r') as f:
+# 		yaml_string = yaml.load(f)
+# 	model = model_from_yaml(yaml_string)
+# 	model.load_weights('keras_bert_lishi_cz.h5')
 #
-#   y_pred = model.predict(X_test)
-#   for i in range(len(y_pred)):
-#       max_value = max(y_pred[i])
-#       chapter = 0
-#       for j in range(len(y_pred[i])):
-#           if max_value == y_pred[i][j]:
-#               y_pred[i][j] = 1
-#           else:
-#               y_pred[i][j] = 0
-#   print('accuracy %s' % accuracy_score(y_pred, Y_test))
+# 	y_pred = model.predict(X_test)
+# 	for i in range(len(y_pred)):
+# 		max_value = max(y_pred[i])
+# 		chapter = 0
+# 		for j in range(len(y_pred[i])):
+# 			if max_value == y_pred[i][j]:
+# 				y_pred[i][j] = 1
+# 			else:
+# 				y_pred[i][j] = 0
+# 	print('accuracy %s' % accuracy_score(y_pred, Y_test))
 
 # [X1, X2] = get_encode(string, token_dict)
 # wordvec = build_bert_model(X1, X2)
