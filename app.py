@@ -27,13 +27,10 @@ headers = {
 }
 
 
-# api.init_app(app)
-
 @app.route('/recommend/knowledge/<string:question_id>', methods=['GET'])
 def get_know(question_id):
     # question_data = data_trans.get_file_data(question_id)
     url = "http://{}:{}/yangtze/recommend_ques/info/{}".format(DATA_TRANS_HOST, DATA_TRANS_PORT, question_id)
-    t1 = time.time()
 
     resp = requests.get(url=url, params=None, headers=headers)
     question_data = resp.json()
@@ -44,7 +41,6 @@ def get_know(question_id):
         "data": point_str
     }
     t2 = time.time()
-    print(t2-t1)
     return data
 
 

@@ -35,23 +35,6 @@ def get_token_dict(dict_path):
     return token_dict
 
 
-# class OurTokenizer(Tokenizer):
-#     '''
-#     扩充 vocab.txt文件的
-#     '''
-#
-#     def _tokenize(self, text):
-#         R = []
-#         for c in text:
-#             if c in self._token_dict:
-#                 R.append(c)
-#             elif self._is_space(c):
-#                 R.append('[unused1]')
-#             else:
-#                 R.append('[UNK]')
-#         return R
-
-
 def get_data(one_dict):
     '''
     读取数据的函数
@@ -75,54 +58,6 @@ def get_data(one_dict):
             for con in value:
                 contents.append(con)
     return length, contents
-
-
-# 得到编码
-# def get_encode(contents, token_dict):
-#     '''
-#     :param pos:第一类文本数据
-#     :param neg:第二类文本数据
-#     :param token_dict:编码字典
-#     :return:[X1,X2]，其中X1是经过编码后的集合，X2表示第一句和第二句的位置，记录的是位置信息
-#     '''
-#     all_data = contents
-#     tokenizer = OurTokenizer(token_dict)
-#     X1 = []
-#     X2 = []
-#     for line in all_data:
-#         # tokenizer.encode(first,second, maxlen)
-#         # 第一句和第二句，最大的长度，
-#         # 本数据集是  都是按照第一句，即一行数据即是一句，也就是第一句
-#         # 返回的x1,是经过编码过后得到，纯整数集合
-#         # 返回的x2,源码中segment_ids，表示区分第一句和第二句的位置。结果为：[0]*first_len+[1]*sencond_len
-#         # 本数据集中，全是以字来分割的。
-#         # line_list = line.split('.')
-#         # for i in line_list:
-#         #     print(i)
-#         # line = line.encode('gbk')
-#         x1, x2 = tokenizer.encode(first=line)
-#         X1.append(x1)
-#         X2.append(x2)
-#     # 利用Keras API进行对数据集  补齐  操作。
-#     # 与word2vec没什么区别
-#     X1 = sequence.pad_sequences(X1, maxlen=maxlen, padding='post', truncating='post')
-#     X2 = sequence.pad_sequences(X2, maxlen=maxlen, padding='post', truncating='post')
-#     return [X1, X2]
-
-
-# def build_bert_model(X1, X2):
-#     '''
-#     :param X1:经过编码过后的集合
-#     :param X2:经过编码过后的位置集合
-#     :return:模型
-#     '''
-#
-#     bert_model = load_trained_model_from_checkpoint(config_path, checkpoint_path, seq_len=None)
-#     # config_path 是Bert模型的参数，checkpoint_path 是Bert模型的最新点，即训练的最新结果
-#     # 注：https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip，
-#     #     下载完之后，解压得到4个文件，直接放到 项目的路径下，要写上绝对路径，以防出现问题。
-#     wordvec = bert_model.predict([X1, X2])
-#     return wordvec
 
 
 def build_model(label_count):
@@ -444,7 +379,7 @@ def question_classify(item, headers, model=None):
                 for key, value in item.items():
                     for string in points_str:
                         if string == value and value:
-                            points_str_.append({key: value})
+                            points_str_.append({"uid": key, "name": value})
         return points_str_
 
 
